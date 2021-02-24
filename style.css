@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.input {
+    background-color: cornflowerblue;
+    height: 200px;
+    /* position: relative; */
+}
+
+
+/* 
+.input::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 48px;
+    padding: 20px;
+}
+
+.container {
+    /* display: flex; */
+    padding: 20px 20px;
+}
+
+#myInput {
+    width: 90%;
+    height: 25px;
+    border: none;
+    font-size: 15px;
+    padding: 12px;
+    float: left;
+}
+
+.click {
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px none;
+    background-color: #fee401;
+    padding: 14px;
+    float: left;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 15%;
+    font-size: 18px;
+}
+
+.click:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+
+.button {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 20px 0 0 40px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #c2d2e1;
+    position: relative;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+ul li:nth-child(odd) {
+    background-color: #ffeb3b;
+}
+
+ul li:hover {
+    transition: 0.5s;
+    background-color: darkslateblue;
+    color: white;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.close:hover {
+    background-color: cornflowerblue;
+}
+
+.important {
+    position: absolute;
+    right: 40px;
+    top: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 18px;
+}
+
+.important1 {
+    font-style: italic;
+    color: red;
+    transition: 0.3ms;
+    font-size: 20px;
+}
+
+.important:hover {
+    background-color: red;
+}
+
+ul li.checked {
+    background-color: darkslateblue;
+    text-decoration: line-through;
+    color: white;
+}
+
+.checked:hover {
+    transition: 0.5s;
+}
